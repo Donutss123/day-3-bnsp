@@ -1,0 +1,149 @@
+
+/* 1. Pengaturan dasar halaman */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 2. Bagian header */
+header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    margin-top: 0;
+    color: #333333;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 20px 0;
+}
+
+/* 3. Navigasi */
+nav a {
+    color: #2563eb;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 4. Bagian utama CV */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #2563eb;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 8px;
+}
+
+/* 5. Tabel data diri dan pendidikan */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #eff6ff;
+    color: #1d4ed8;
+}
+
+/* 6. Daftar keahlian */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* 7. Informasi kontak */
+address {
+    font-style: normal;
+}
+
+a {
+    overflow-wrap: anywhere;
+}
+
+section a {
+    color: #2563eb;
+}
+
+/* 8. Footer */
+footer {
+    text-align: center;
+    color: #666666;
+    padding: 10px;
+}
+
+/* 9. Tampilan untuk HP */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header,
+    section {
+        padding: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+        overflow-wrap: anywhere;
+    }
+}
